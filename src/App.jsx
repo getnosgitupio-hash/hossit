@@ -5,7 +5,7 @@ import Thankyoupage from "./components/Thankyoupage";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/hossit">
+    <BrowserRouter basename="/discoverycall/">
       <Routes>
         <Route path="/" element={<HoisstLanding />} />
         <Route path="/schedule" element={<HoisstScheduling />} />
